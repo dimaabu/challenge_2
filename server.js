@@ -6,9 +6,7 @@ app.listen(4321, () => console.log('listening at 3000'));
 app.use (express.static('client'));
 
 
-app.post('/', function (req, res) {
-    res.send('POST request to the homepage')
-  })
+`app.post('/upload_json', (req, res) => { ... })`
 
 
 
